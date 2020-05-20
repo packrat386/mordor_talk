@@ -1,0 +1,36 @@
+Mordor Memoirs
+What barad-dur taught me about product design
+
+Aidan Coyle
+Jarvis Team
+acoyle@enova.com
+
+* About barad-dur
+
+barad-dur is a collection of utilities for making apps production ready.
+
+It's been around quite a while at this point, and I've been the main maintainer.
+
+* Tooling is a product
+
+A tool, even an internal one, is a product like any other.
+
+Customers expect it to provide value, and that value has to be worth the cost.
+
+* Beating the status quo
+
+If your feature isn't easier to use than the status quo, then nobody will care about it.
+
+barad-dur exposes statsd, but the existing library was too easy to use.
+
+* Discoverability
+
+We had a problem with relative filepaths in prod.
+
+We added a feature to barad-dur to fix it... but nobody knew.
+
+* The perils of dog food
+
+Eating your own dog food has become a popular development practice.
+
+Sometimes being one of your own biggest customers can complicate feature planning.
